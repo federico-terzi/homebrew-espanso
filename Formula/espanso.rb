@@ -6,10 +6,9 @@ class Espanso < Formula
   homepage "https://github.com/federico-terzi/espanso"
   url "https://github.com/federico-terzi/espanso/releases/download/v0.1.0/espanso-macos-0.1.0.tar.gz"
   sha256 "11543632058ab56d401bbd1f2361e34854f07b1fd74a3c84168c744436a7c2f5"
+  version "0.1.0"
 
   def install
     bin.install "espanso"
-
-    system "espanso", "install"
   end
 end
