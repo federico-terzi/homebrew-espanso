@@ -5,8 +5,8 @@ class Espanso < Formula
   desc "Cross-platform Text Expander written in Rust"
   homepage "https://github.com/federico-terzi/espanso"
   url "https://github.com/federico-terzi/espanso/releases/latest/download/espanso-mac.tar.gz"
-  sha256 "724fb857f4f36ec7757d7713a96c90b7bdc22096a8c35fd9640252e6a94e1de1"
-  version "0.5.4"
+  sha256 "bcf66e7371104c260677351f52a7adc74902b62712fd9b3cf595d6fae3cb05f6"
+  version "0.5.5"
 
   def install
     bin.install "espanso"
