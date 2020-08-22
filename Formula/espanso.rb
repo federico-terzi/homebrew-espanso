@@ -4,8 +4,8 @@
 class Espanso < Formula
   desc "Cross-platform Text Expander written in Rust"
   homepage "https://github.com/federico-terzi/espanso"
-  url "https://github.com/federico-terzi/espanso/releases/v0.7.0/download/espanso-mac.tar.gz"
-  sha256 "578b00d10bc58a7f6730e3edafac62e525e272291d36b8c89fb6658c56c73dc9"
+  url "https://github.com/federico-terzi/espanso/releases/download/v0.7.0/espanso-mac.tar.gz"
+  sha256 "9384cde487cc1671ce31ed86a56177739fe46b00d6a3c9f6b2a62c478239b0bf"
   version "0.7.0"
 
   resource "modulo" do
@@ -17,5 +17,5 @@ class Espanso < Formula
     bin.install "espanso"
 
     resource("modulo").stage { bin.install "modulo-mac" => "modulo" }
-  end  
+  end
 end
