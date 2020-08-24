@@ -10,7 +10,7 @@ class Espanso < Formula
 
   resource "modulo" do
     url "https://github.com/federico-terzi/modulo/releases/download/v0.1.0/modulo-mac"
-    sha256 "1ed432454f7b78fd0e9fd24c513bbb19ffc53e8b1b11447872671d83be2b3050"
+    sha256 "f2009520ea5e95dde171a9b89612e2aee09f79281e07e411d8ecbbc20319e622"
   end
 
   def install
